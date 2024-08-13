@@ -75,7 +75,7 @@ You can modify the styles of these classes in your CSS to suit your design requi
 
 TinyLightbox does not have any external dependencies. It is a pure JavaScript implementation.
 
-## Example
+## Examples
 Here is a basic example of how to use TinyLightbox:
 
 https://alflow.github.io/light-box/
