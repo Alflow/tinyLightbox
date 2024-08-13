@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyLightbox Example</title>
+    <link rel="stylesheet" href="dist/tiny-lightbox.css">
+</head>
+<body>
+    <h1>Lightbox Example</h1>
+    <div class="grid">
+        <img src="https://placehold.co/600x400" alt="example img" class="tlb-img">
+        <img src="https://placehold.co/600x400" alt="example img" class="tlb-img">
+        <img src="https://placehold.co/600x400" alt="example img" class="tlb-img">
+        <img src="https://placehold.co/600x400" alt="example img" class="tlb-img">
+    </div>
+
+    <script type="module">
+        import { TinyLightbox } from './dist/tiny-lightbox.min.js';  
+
+        const tlb = new TinyLightbox();
+        tlb.attach('.tlb-img');
+    </script>
+</body>
+</html>

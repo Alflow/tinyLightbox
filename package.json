@@ -1,0 +1,12 @@
+{
+    "name": "tiny-lightbox",
+    "version": "1.0.0",
+    "description": "A lightweight and easy-to-use JavaScript lightbox library.",
+    "main": "dist/tiny-lightbox.min.js",
+    "author": "(Alfredo Alberruche)",
+    "license": "MIT",
+    "scripts": {
+      "build": "your-build-command"
+    }
+  }
+  
