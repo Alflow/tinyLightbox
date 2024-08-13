@@ -78,28 +78,7 @@ TinyLightbox does not have any external dependencies. It is a pure JavaScript im
 ## Example
 Here is a basic example of how to use TinyLightbox:
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TinyLightbox Example</title>
-  <script type="module" src="TinyLightbox.js"></script>
-  <style>
-    /* Add your custom styles here */
-  </style>
-</head>
-<body>
-  <img src="path/to/image1.jpg" class="lightbox-img" alt="Image 1">
-  <img src="path/to/image2.jpg" class="lightbox-img" alt="Image 2">
-
-  <script>
-    import { TinyLightbox } from './TinyLightbox.js';
-    const lightbox = new TinyLightbox();
-    lightbox.attach('.lightbox-img');
-  </script>
-</body>
-</html>
+https://alflow.github.io/light-box/
 
 
 ## Contributing
